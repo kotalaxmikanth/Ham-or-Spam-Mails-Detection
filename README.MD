@@ -5,10 +5,10 @@ This project implements a machine learning-based spam email classifier using Log
 
 ## Project Structure
 - `spam.csv`: Dataset containing email texts and their labels
-- `untitled494.py`: Main Python script for spam classification
+- `Logistic_Regression.ipynb`: Main Python script for spam classification
 
 ## Prerequisites
-- Python 3.7+
+- Python 3.12+
 - Required Libraries:
   - pandas
   - numpy
@@ -46,11 +46,6 @@ The model is evaluated using:
 - Accuracy Score
 - Classification Report (Precision, Recall, F1-Score)
 
-## How to Run
-```bash
-python untitled494.py
-```
-
 ## Model Evaluation
 The script generates a classification report showing the model's performance across different metrics.
 
@@ -59,9 +54,3 @@ The script generates a classification report showing the model's performance acr
 - Try other classification algorithms
 - Implement cross-validation
 - Handle class imbalance
-
-## License
-[Add your license information]
-
-## Contact
-[Add your contact information]
